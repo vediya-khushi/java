@@ -1,0 +1,35 @@
+Vediya Khushi R.
+220130318010
+
+/*Write a Java program that declares three integer variables (a, b, c) and compute their sum and average.*/
+
+import java.util.Scanner;
+class p1
+{
+ public static void main(String s[] ) 
+{
+
+  int number1;
+  int number2;
+  int number3;
+  int sum;
+ double avg;
+
+  Scanner sc= new Scanner(System.in);
+  System.out.println("Enter number 1 : ");
+  number1 = sc.nextInt();
+
+  System.out.println("Enter number 2 : ");
+  number2 = sc.nextInt();
+
+  System.out.println("Enter numner 3 : ");
+  number3 = sc.nextInt();
+
+  sum= number1 + number2 + number3;
+  avg=sum/3;
+
+  System.out.println("Sum = " +sum);
+  System.out.println("average = " +avg);
+}
+}
+

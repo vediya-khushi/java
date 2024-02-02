@@ -1,0 +1,26 @@
+Vediya Khushi R.
+220130318010
+
+/* Write a Java program that declares two double variables (radius, area) and compute the area of a circle. */
+
+import java.util.*;
+
+class P2
+	{
+		public static void main(String args[])
+		{
+			double r,area;
+			final double pi=3.14;
+
+			Scanner sc= new Scanner(System.in);
+
+  			System.out.print("Enter the radius to find area of Circle: ");
+ 			r = sc.nextInt();
+
+			area=pi*r*r;
+
+			System.out.println("Radius of given circle is ::"+r);
+			System.out.println("Area of given circle is ::"+area);
+		}
+
+	}

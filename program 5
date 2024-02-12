@@ -1,5 +1,11 @@
-import java.util.*;
+/*Write a Java program that takes two integer inputs (a
+and b) and performs the following operations addition,
+subtraction, multiplication, division and modulo. */
 
+Vediya Khushi R.
+220130318010
+
+import java.util.*;
 public class P5
 {
    public static void main(String[] args)

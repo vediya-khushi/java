@@ -1,3 +1,10 @@
+/*Write a Java program that take an integer input (n) and
+find reverse number of given number.*/ 
+
+
+Vediya Khushi R.
+220130318010
+
 import java.util.*;
 class p4
 {
